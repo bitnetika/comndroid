@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "comndroid"
 include(":app")
+include(":commons")
