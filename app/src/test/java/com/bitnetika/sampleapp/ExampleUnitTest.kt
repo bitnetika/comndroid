@@ -1,4 +1,4 @@
-package com.bitnetika.commons
+package com.bitnetika.sampleapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.bitnetika.comndroid
+package com.bitnetika.sampleapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bitnetika.comndroid"
+    namespace = "com.bitnetika.sampleapp"
     compileSdk = 34
 
     defaultConfig {
@@ -40,7 +40,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(project(":commons"))
+    // implementation(project(":comndroid"))
+    // implementation("com.github.bitnetika:comndroid:1.0.0-alpha1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
