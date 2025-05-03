@@ -16,9 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
     }
 }
 
 rootProject.name = "comndroid"
 include(":app")
-include(":commons")
+include(":comndroid")

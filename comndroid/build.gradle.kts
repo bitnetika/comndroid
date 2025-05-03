@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bitnetika.commons"
+    namespace = "com.bitnetika.comndroid"
     compileSdk = 34
 
     defaultConfig {

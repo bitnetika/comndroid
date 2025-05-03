@@ -1,4 +1,4 @@
-package com.bitnetika.commons.utils
+package com.bitnetika.comndroid.utils
 
 fun String?.isEquals(other: String?): Boolean {
     return equals(other, true)
