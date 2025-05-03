@@ -5,7 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-// import com.bitnetika.comndroid.utils.isEquals
+import com.bitnetika.comndroid.utils.isEquals
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // val isEquals = "Some text".isEquals("Another text")
+        val isEquals = "Some text".isEquals("Another text")
     }
 }
