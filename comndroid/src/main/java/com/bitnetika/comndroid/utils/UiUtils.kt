@@ -73,7 +73,11 @@ fun Context?.attrDimenSize(@AttrRes attrRes: Int?): Int {
     }
         .getOrNull()
         .orZero()
+}
 
+fun Context?.pxToDp(pixels: Int): Float {
+    val density = this?.resources?.displayMetrics?.density.orZero()
+    return runCatching { pixels.orZero() / density }.getOrNull().orZero()
 }
 
 fun Context?.compatColor(@ColorRes colorRes: Int?): Int {
