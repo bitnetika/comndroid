@@ -36,7 +36,7 @@ Failed to resolve?
 - Check for typos in the dependency declaration
 
 ## Build issues?
-Visit the [JitPack build logs](https://jitpack.io/#bitnetika/comndroid/1.0.0-alpha2) to see if the build succeeded.
+Visit the [JitPack build logs](https://jitpack.io/#bitnetika/comndroid/1.0.0-alpha4) to see if the build succeeded.
 
 ## License
 > Copyright 2025 Bitnetika
