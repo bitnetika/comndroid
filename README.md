@@ -25,7 +25,7 @@ dependencyResolutionManagement {
 In your **module-level** build.gradle (usually app/build.gradle):
 ```groovy
 dependencies {
-    implementation 'com.github.bitnetika:comndroid:1.0.0-alpha2'
+    implementation 'com.github.bitnetika:comndroid:1.0.0-alpha4'
 }
 ```
 
